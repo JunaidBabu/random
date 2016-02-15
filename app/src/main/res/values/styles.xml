@@ -17,7 +17,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Base theme -->
     <style name="Theme.SampleApp.Base" parent="@android:style/Theme.Holo.Light" />
-
+    <style name="AppTheme" parent="@style/Theme.Leanback"></style>
     <!-- App common theme -->
     <style name="Theme.SampleApp.Common" parent="Theme.SampleApp.Base">
         <item name="android:actionBarStyle">@style/ActionBar</item>

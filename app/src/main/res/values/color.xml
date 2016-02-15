@@ -29,4 +29,24 @@
     <color name="detail_text_dark">#595959</color>
     <color name="divider">#e0e0e0</color>
     <color name="color_indicator_border">#7d7d7d</color>
+
+
+
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#002615</color>
+    <color name="selected_background">#3f45ff</color>
+    <color name="detail_background">#0059a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#a7faec</color>
+    <color name="yellow">#41ffd6</color>
+    <color name="default_background">#3d3d3d</color>
 </resources>
+

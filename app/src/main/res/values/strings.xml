@@ -276,4 +276,47 @@
     <string name="duplicate_name_message_preset">Warning! There already is a preset named \"%1$s.\" Although it\'s possible to use the same name for more than one preset, it\'s better to give each preset a unique name.\n\nKeep duplicate preset name \"%1$s\"?</string>
     <string name="duplicate_name_message_transition_effect">Warning! There already is a transition effect named \"%1$s.\" Although it\'s possible to use the same name for more than one transition effect, it\'s better to give each transition effect a unique name.\n\nKeep duplicate transition effect name \"%1$s\"?</string>
     <string name="duplicate_name_message_pulse_effect">Warning! There already is a pulse effect named \"%1$s.\" Although it\'s possible to use the same name for more than one pulse effect, it\'s better to give each pulse effect a unique name.\n\nKeep duplicate pulse effect name \"%1$s\"?</string>
+
+
+
+
+    <!--<string name="app_name">TvScratch</string>-->
+    <string name="title_activity_main">Leanback MainActivity Title</string>
+    <string name="browse_title"><![CDATA[SmartHome]]></string>
+    <string name="related_movies">Related</string>
+    <string name="vertical_grid_title"><![CDATA[Vertical Grid]]></string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="init_text">00:00</string>
+    <string name="play_pause_description">Play Pause Button</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_video_found">No video was found</string>
+    <string name="about_app">About DemoCast Player</string>
+    <!--<string name="version">Version: %1$s</string>-->
+    <string name="popular_header">Popular Videos</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+    <string name="should_start">shouldStart</string>
+    <string name="start_position">startPosition</string>
+    <string name="search_results">Search Results</string>
+
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="oops">Oops</string>
 </resources>

@@ -38,15 +38,32 @@
         android:theme="@style/Theme.SampleApp.Common" >
 
         <activity
+            android:name=".view.MainActivity"
+            android:banner="@drawable/app_icon_your_company"
+            android:icon="@drawable/app_icon_your_company"
+            android:label="@string/title_activity_main"
+            android:logo="@drawable/app_icon_your_company"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Leanback">
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name="org.allseen.lsf.sampleapp.SplashActivity"
             android:label="@string/app_name"
             android:noHistory="true"
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
             android:configChanges="locale|layoutDirection" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
 
@@ -55,7 +72,7 @@
             android:alwaysRetainTaskState="true"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
             android:configChanges="locale|layoutDirection" >
         </activity>
     </application>
